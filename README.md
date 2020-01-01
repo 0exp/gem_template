@@ -1,4 +1,4 @@
-# gem_template
+# gem_template &middot; [![Gem Version](https://badge.fury.io/rb/gem_template_rb.svg)](https://badge.fury.io/rb/gem_template_rb) [![Build Status](https://travis-ci.org/0exp/gem_template.svg?branch=master)](https://travis-ci.org/0exp/gem_template)
 
 > Рус, есть какой-нить шаблон для гемов, чтобы мозга не е*ать?
 
@@ -6,7 +6,7 @@
 
 ### Че по факту?
 
-- ты теперь можешь в гемы;
+- ты теперь можешь в гемы (тут есть все: шаблонный проект для гема, настройка сиайки, rubocop, прогон тестов - рай для пацана);
 - клонируй репу;
 - переименовывай `gem_template.gemspec`, `lib/gem_template.rb`, `lib/gem_template/`;
 - читай, че написано ниже;
@@ -29,6 +29,7 @@
 - весь билд гонится в `TravisCI`;
 - весь конфиг в `.travis.yml`, там `rubocop` и `rspec` в билде для `jruby-head`, `ruby-head` и `ruby@2.7.0`;
 - настраивай как тебе надо, если надо (ты справишься);
+- в этом ридми есть два баджика (глаза разуй) - посмотри в сорцы ридми-файла и возьми их себе (это баджики на гем-вершн и травис-билд-статус);
 
 ---
 
