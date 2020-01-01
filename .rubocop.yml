@@ -1,0 +1,15 @@
+inherit_gem:
+  armitage-rubocop:
+    - lib/rubocop.general.yml
+    - lib/rubocop.rake.yml
+    - lib/rubocop.rspec.yml
+
+AllCops:
+  TargetRubyVersion: 2.7.0
+  Include:
+    - lib/**/*.rb
+    - spec/**/*.rb
+    - Gemfile
+    - Rakefile
+    - gem_template_rb.gemspec
+    - bin/console
