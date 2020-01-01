@@ -61,10 +61,10 @@ Gem::Specification.new do |spec|
   spec.summary     = 'Gem Template' # МЕНЯЙ НА ЧИСТО КРАТКОЕ ОПИСАНИЕ
   spec.description = 'Рус, есть какой-нить шаблон для гемов, чтобы мозга не е*ать?' # МЕНЯЙ НА ЧИСТО ДЛИННОЕ ОПИСАНИЕ
   spec.homepage    = 'https://github.com/0exp/gem_template' # УРЛ ДО СОРЦОВ ТВОЕГО ГЕМА ИЛИ ПРОМО-САЙТИКА
-  spec.license     = 'MIT' # САМ СМОТРИ, КАК ХОЧЕШЬ
+  spec.license     = 'MIT' # САМ СМОТРИ. СТАВЬ КАКУЮ ХОЧЕШЬ
 
   spec.metadata['homepage_uri']    = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/0exp/gem_template' # МЕНЯ НА СВОЙ УРЛ ДО СОРЦОВ
+  spec.metadata['source_code_uri'] = 'https://github.com/0exp/gem_template' # МЕНЯЙ НА СВОЙ УРЛ ДО СОРЦОВ
   spec.metadata['changelog_uri']   = 'https://github.com/0exp/gem_template/blob/master/CHANGELOG.md' # МЕНЯЙ НА СВОЙ УРЛ ДО ЧАНДЖЛОГА
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
@@ -97,7 +97,7 @@ end
 
 ### А че делать с фичами?
 
-Записывай все в [CHANGELOG.md](changelog.md). Там пример есть. И не тупи - делай, как написано.
+Записывай все в [CHANGELOG.md](CHANGELOG.md). Там пример есть. И не тупи - делай, как написано.
 
 ---
 
