@@ -36,6 +36,7 @@
 
 - `gem_template_rb.gemspec` - переименовывай в название своего гема (типа `smart_core.gemspec`)
 - переименуй `lib/gem_template.rb` и `lib/gem_tempalte` в свои названия (типа в `lib/smart_core.rb` и в `lib/smart_core/`)
+- в `spec_helper.rb` поменяй `require 'gem_template'` на свой гем-реквайр (типа `require 'smart_core'`);
 - и константы `module GemTemplate` не забудь поменять (типа на `module SmartCore` или `class SmartCore`);
 
 ### А че менять в *.gemspec ?
