@@ -7,7 +7,7 @@ SimpleCov.minimum_coverage(100)
 SimpleCov.start { add_filter 'spec' }
 
 require 'bundler/setup'
-require 'gem_template'
+require 'gem_template_rb'
 require 'pry'
 
 RSpec.configure do |config|
