@@ -92,7 +92,7 @@ end
 
 - `.rspec` - по умолчанию `progress`;
 - `spec/spec_helper.rb` - там сразу тебе SimpleCov 100% кавередж, рандом ордер спеков и четкий конфиг RSpec'а от меня;
-- в `spec/spec_helper.rb` поменяй `require 'gem_template' на свой гем типа` `require 'smart_core'`;
+- в `spec/spec_helper.rb` поменяй `require 'gem_template'` на свой гем типа `require 'smart_core'`;
 - теперь можешь нормально в `bundle exec rspec`;
 
 ---
