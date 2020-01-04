@@ -40,6 +40,7 @@
 - переименуй `lib/gem_template.rb` и `lib/gem_template` в свои названия (типа в `lib/smart_core.rb` и в `lib/smart_core/`)
 - в `spec_helper.rb` поменяй `require 'gem_template'` на свой гем-реквайр (типа `require 'smart_core'`);
 - и константы `module GemTemplate` не забудь поменять (типа на `module SmartCore` или `class SmartCore`);
+- а, еще в `LICENSE.txt` поставь себя и поправь дату (ну типа там на 2020 Jenia Valuev, а то сп\*\*\*дят твой гем);
 
 ---
 
