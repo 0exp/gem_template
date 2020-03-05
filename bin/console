@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'gem_tmeplate_rb'
+require 'gem_template'
 
 require 'pry'
 Pry.start
