@@ -4,7 +4,7 @@ require 'simplecov'
 
 SimpleCov.formatter = SimpleCov::Formatter::HTMLFormatter
 SimpleCov.minimum_coverage(100)
-SimpleCov.start { add_filter 'spec' }
+SimpleCov.start { add_filter '/spec' }
 
 require 'bundler/setup'
 require 'gem_template'
