@@ -8,7 +8,7 @@ script:
 jobs:
   fast_finish: true
   include:
-  - rvm: 2.7.0
+  - rvm: 2.7.1
     os: [linux, osx]
   - rvm: ruby-head
     os: [linux, osx]
